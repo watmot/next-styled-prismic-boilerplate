@@ -6,6 +6,7 @@ declare global {
       NEXT_PUBLIC_BUILD_ENVIRONMENT: 'local' | 'development' | 'staging' | 'production';
       NEXT_PUBLIC_BUILD_DATE: string;
       NEXT_PUBLIC_BUILD_TIME: string;
+      NEXT_PUBLIC_PRISMIC_REPOSITORY_NAME: string;
     }
   }
 }
