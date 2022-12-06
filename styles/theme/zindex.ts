@@ -1,4 +1,4 @@
-const zIndexes = ['cursor', 'header']; // decreasing in order of priority
+const zIndexes = ['version', 'cursor', 'header']; // decreasing in order of priority
 
 const zIndex = (name: string) => {
   const foundIndex = zIndexes.findIndex((item) => item === name);

@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   margin: 0.5rem;
   padding: 0.5rem;
   background: #f1f1f1;
+  z-index: ${({ theme }) => theme.zIndex('version')};
 `;
 
 export const Text = styled.span`
